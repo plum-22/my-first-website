@@ -1,0 +1,31 @@
+.images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+    margin-bottom: 200px;
+}
+.webname {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 72px;
+    color: rgb(155, 125, 155);
+}
+.webintro {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 48px;
+    color:rgba(95, 91, 91, 0.9);
+}
+.hashtags {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    color:rgba(95, 91, 91, 0.9);
+}

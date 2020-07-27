@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<link rel="stylesheet" type="text/css" href="/Users/amyp/Desktop/Project Website/css /HPstyle.css">
+<link rel="stylesheet" type="text/css" href="/Users/amyp/Desktop/Project Website/css /contactus.css">
+<html>
+    <link rel="stylesheet" type="text/css" href="HPstyle.css">
+<body>
+<div class= "topnav">
+    <a class="active" href="index.html">Home</a>
+    <a href="aboutp2.html">About</a>
+   
+    <div class="dropdown">
+        <button class="dropbtn">Movements
+            <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+            <a href="#">Black Lives Matter</a>
+            <a href="climatechange.html">Climate Change</a>
+            <a href="#">Link 3</a>
+        </div>
+    </div>
+    <a href="contactus.html">Contact Us</a>
+</div>
+<p class="p1">Enter your details in the form below, then click "Submit". A member of our team will get back to you as soon as possible.</p>
+
+<form id="frm1" action="/action_page.php">
+    First name: <input type="text" name="fname"><br>
+    Last name: <input type="text" name="lname"><br>
+    Email Address: <input type="text" name="email"><br><br>
+    <input type="button" onclick="myFunction()" value="Submit">
+</form>
+<script>
+    function myFunction() {
+        document.getElementById("frml").submit();
+    }
+</script>
+</body>
+</html>
